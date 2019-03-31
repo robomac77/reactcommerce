@@ -10,6 +10,7 @@ import Default from './components/Default'
 import Modal from './components/Modal'
 import EyeModal from './components/EyeModal'
 import SunModal from './components/SunModal'
+import CallContainer from './components/Call'
 
 
 
@@ -28,6 +29,8 @@ class App extends Component {
          <Route  component={Default}></Route>
        </Switch>
        <Modal />
+       <CallContainer />
+
 
      
        
